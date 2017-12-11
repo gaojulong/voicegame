@@ -1,4 +1,4 @@
-package cn.lovelqq.julong.voicerw;
+package cn.lovelqq.julong;
 
 
 import android.os.Handler;
@@ -11,11 +11,13 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.gaojulong.github.www.GeiRandomeString;
-import com.gaojulong.github.www.Shibie;
-import com.gaojulong.github.www.Time;
+import com.gaojulong.github.GeiRandomeString;
+import com.gaojulong.github.Shibie;
+import com.gaojulong.github.Time;
 import com.iflytek.cloud.SpeechConstant;
 import com.iflytek.cloud.SpeechUtility;
+
+import cn.lovelqq.julong.voicerw.R;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     public   static TextView tv_score,tv,tv_time,tv_random;
@@ -89,7 +91,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //如果没有剩余时间，才可以再次计时。
                 time.gettimer(60);
                 //生成汉字
-                strRandom=GeiRandomeString.getRandomChar();
+                strRandom= GeiRandomeString.getRandomChar();
                tv_random.setText(strRandom);
                btn_start.setText("下一个");
                 break;

@@ -1,4 +1,4 @@
-package com.gaojulong.github.www;
+package com.gaojulong.github;
 
 import android.content.Context;
 import android.os.Message;
