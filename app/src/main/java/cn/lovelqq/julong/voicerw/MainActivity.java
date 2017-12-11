@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private Shibie shibie=new Shibie();
     public static String strRandom=null;//随机数
     public static int score=0;//所得分
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
