@@ -14,7 +14,8 @@ import com.iflytek.cloud.SpeechError;
 import com.iflytek.cloud.ui.RecognizerDialog;
 import com.iflytek.cloud.ui.RecognizerDialogListener;
 
-import cn.lovelqq.julong.voicerw.MainActivity;
+import cn.lovelqq.julong.MainActivity;
+
 
 /**
  * Created by julong on 2017/12/11.

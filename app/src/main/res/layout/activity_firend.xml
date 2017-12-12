@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+           android:id="@+id/tv_f_score"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:textColor="#ff0000"
+           android:textSize="18dp"
+           android:hint="得分:"/>
+        <TextView
+           android:id="@+id/tv_f_score1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="0"
+           android:textColor="#ff0000"
+           android:textSize="18dp"/>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/ed_firend_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="输入的汉字"
+        android:layout_below="@id/line3"/>
+    <TextView
+        android:id="@+id/tv_friend_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ed_firend_input"
+        android:hint="识别的结果"/>
+    <Button
+        android:id="@+id/btn_fri_voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_friend_result"
+        android:text="点击识别"/>
+
+
+
+</RelativeLayout>

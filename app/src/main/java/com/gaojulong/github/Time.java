@@ -3,8 +3,8 @@ package com.gaojulong.github;
 
 import android.os.Message;
 
+import cn.lovelqq.julong.MainActivity;
 
-import cn.lovelqq.julong.voicerw.MainActivity;
 
 /**
  * Created by julong on 2017/12/11.
